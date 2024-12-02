@@ -3,7 +3,7 @@ with open('input.txt', 'r') as file:
     A = []
     B = []
     for line in lines:
-        numbers = line.split("   ")
+        numbers = line.split()
         A.append(int(numbers[0]))
         B.append(int(numbers[1]))
 

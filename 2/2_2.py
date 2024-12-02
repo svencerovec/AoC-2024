@@ -17,7 +17,7 @@ with open('input.txt', 'r') as file:
     lines = file.readlines()
     sum = 0
     for line in lines:
-        A = [int(x) for x in line.split(" ")]
+        A = [int(x) for x in line.split()]
         if is_list_valid(A):
             sum += 1
             continue
