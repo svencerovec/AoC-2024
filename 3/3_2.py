@@ -1,8 +1,7 @@
 import re
 
 with open('input.txt', 'r') as file:
-    lines = file.readlines()
-    input = "".join(lines)
+    input = file.read()
 
     do_pattern = r"do\(\)"
     dont_pattern = r"don't\(\)"
